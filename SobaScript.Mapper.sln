@@ -34,6 +34,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Varhead", "SobaScript\E-MSB
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSender", "SobaScript\E-MSBuild\Varhead\LSender\LSender\LSender.csproj", "{09974DE1-98BF-4D9B-81EF-8F41E86861B8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{7D1F1A61-611C-47D8-B042-E94C2176CEAA}"
+	ProjectSection(SolutionItems) = preProject
+		tools\gnt.bat = tools\gnt.bat
+		tools\hMSBuild.bat = tools\hMSBuild.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		DBG_SDK10|Any CPU = DBG_SDK10|Any CPU

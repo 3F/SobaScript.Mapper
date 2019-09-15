@@ -8,13 +8,13 @@ Extensible Modular Scripting Programming Language.
 
 https://github.com/3F/SobaScript
 
-[![Build status](https://ci.appveyor.com/api/projects/status/SobaScript.Mapper/branch/master?svg=true)](https://ci.appveyor.com/project/3Fs/SobaScript.Mapper/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/o4sjrrw3e4hy43wr/branch/master?svg=true)](https://ci.appveyor.com/project/3Fs/sobascript-mapper/branch/master)
 [![release-src](https://img.shields.io/github/release/3F/SobaScript.Mapper.svg)](https://github.com/3F/SobaScript.Mapper/releases/latest)
 [![License](https://img.shields.io/badge/License-MIT-74A5C2.svg)](https://github.com/3F/SobaScript.Mapper/blob/master/License.txt)
 [![NuGet package](https://img.shields.io/nuget/v/SobaScript.Mapper.svg)](https://www.nuget.org/packages/SobaScript.Mapper/)
 [![Tests](https://img.shields.io/appveyor/tests/3Fs/SobaScript.Mapper/master.svg)](https://ci.appveyor.com/project/3Fs/SobaScript.Mapper/build/tests)
 
-[![Build history](https://buildstats.info/appveyor/chart/3Fs/SobaScript.Mapper?buildCount=20&includeBuildsFromPullRequest=true&showStats=true)](https://ci.appveyor.com/project/3Fs/SobaScript.Mapper/history)
+[![Build history](https://buildstats.info/appveyor/chart/3Fs/SobaScript.Mapper?buildCount=20&showStats=true)](https://ci.appveyor.com/project/3Fs/SobaScript.Mapper/history)
 
 ## License
 
