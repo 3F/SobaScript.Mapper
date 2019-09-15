@@ -54,7 +54,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SobaScript\SobaScript.csproj" />
+    <ProjectReference Include="..\SobaScript\SobaScript\SobaScript.csproj" />
   </ItemGroup>
 
 </Project>

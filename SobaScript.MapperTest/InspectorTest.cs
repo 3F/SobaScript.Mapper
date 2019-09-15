@@ -1,8 +1,8 @@
 using System.Linq;
 using net.r_eg.SobaScript;
 using net.r_eg.SobaScript.Mapper;
-using net.r_eg.SobaScript.Z.Core;
 using net.r_eg.Varhead;
+using SobaScript.MapperTest.Stubs;
 using Xunit;
 
 namespace SobaScript.MapperTest
@@ -16,7 +16,7 @@ namespace SobaScript.MapperTest
             var dom = new Inspector(soba);
 
             Assert.Empty(dom.Root);
-            Assert.Empty(dom.GetBy(new EvMSBuildComponent(soba)));
+            Assert.Empty(dom.GetBy(new StubEvMSBuildComponent(soba)));
         }
 
         [Fact]
@@ -32,7 +32,7 @@ namespace SobaScript.MapperTest
         public void DataTest3()
         {
             var soba    = new Soba(new UVars());
-            var evm     = new EvMSBuildComponent(soba);
+            var evm     = new StubEvMSBuildComponent(soba);
             soba.Register(evm);
 
             var dom = new Inspector(soba);
